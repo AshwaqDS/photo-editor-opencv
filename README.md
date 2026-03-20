@@ -1,15 +1,19 @@
-# Photo Editor using OpenCV and Streamlit
+# 📸 Photo Editor using OpenCV + Streamlit
 
 ## Description
-A web-based image editing app built using Streamlit and OpenCV.
+This is a web-based photo editor where users can upload an image and apply various filters and effects.
 
 ## Features
-- Upload image
-- Resize
-- Brightness & contrast adjustment
-- Filters (grayscale, blur, warm, sharpen)
+- Resize image
+- Adjust brightness & contrast
+- Grayscale
+- Blur
+- Warm filter
+- Sharpen
 - Portrait blur
-- Download image
+- Edge detection
+- Cartoon effect
+- Download edited image
 
 ## Tools Used
 - Python
@@ -17,5 +21,9 @@ A web-based image editing app built using Streamlit and OpenCV.
 - Streamlit
 - NumPy
 
-## Run the Project
-streamlit run app.py
+## How to Run
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run the app:
+   streamlit run app.py
